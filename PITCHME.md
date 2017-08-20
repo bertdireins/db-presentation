@@ -73,13 +73,14 @@ Howto get the cake
 - Automatic conversion
 - Modification & compatible
 
-<< Bild VISUAL => XML => JSON >>
+![Workflow Specs](db-pres-visual.png)
+
 
 +++
 
 ### Model the Domain: VISUAL
 
-<< Bild tree >>
+![Workflow Specs Visual](db-pres-tree.png)
 
 +++
 
