@@ -86,7 +86,50 @@ Howto get the cake
 
 ### Model the Domain: XML
 
-<< Code XML >>
+```xml
+ <children>
+               <text>Inlay / Onlay / Veneer</text>
+               <type>indication</type>
+               <children>
+                  <text>Metall</text>
+                  <type>material</type>
+                  <children>
+                     <text>Gold</text>
+                     <type>materialType</type>
+                  </children>
+               </children>
+               <children>
+                  <text>Keramik</text>
+                  <colors>true</colors>
+                  <type>material</type>
+                  <children>
+                     <text>Glas / Feldspar</text>
+                     <type>materialType</type>
+                  </children>
+                  <children>
+                     <text>Lithium-Disilkat</text>
+                     <type>materialType</type>
+                  </children>
+               </children>
+               <children>
+                  <text>Kunststoff</text>
+                  <colors>true</colors>
+                  <type>material</type>
+                  <children>
+                     <text>PMMA</text>
+                     <type>materialType</type>
+                  </children>
+                  <children>
+                     <text>Polycarbonat</text>
+                     <type>materialType</type>
+                  </children>
+                  <children>
+                     <text>Wax / Resin</text>
+                     <type>materialType</type>
+                  </children>
+               </children>
+            </children>
+```
 
 +++
 
