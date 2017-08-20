@@ -63,7 +63,7 @@ Howto get the cake
 
 ### Wireframing
 
-![Logo](db-pres-wireframes.jpg)
+![Wireframes](db-pres-wireframes.png)
 
 +++
 
