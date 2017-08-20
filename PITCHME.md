@@ -59,13 +59,13 @@ Howto get the cake
 - Wireframing
 - Domain models
 
----
++++
 
 ### Wireframing
 
 << Bild Wireframes >>
 
----
++++
 
 ### Model the Domain
 
@@ -75,23 +75,64 @@ Howto get the cake
 
 << Bild VISUAL => XML => JSON >>
 
----
++++
 
 ### Model the Domain: VISUAL
 
 << Bild tree >>
 
----
++++
 
 ### Model the Domain: XML
 
 << Code XML >>
 
----
++++
 
 ### Model the Domain: JSON
 
 << CODE JSON >>
 
+---
 
+## Architecture
 
+- SPA with offline / sync capabilities
+- API based communication
+- SOA serverside
+- Event based communication
+
++++
+
+### Overview
+
+<< Bild Frontend und services >>
+
+### Event based communication
+
+<< Bild MQ >>
+
+---
+
+## Technologies
+
+Client side
+
+- Angular (Cordova & Electron)
+- Magento as E-Commerce component
+
+Server side
+
+- Apache Kafka
+- CouchDB
+- One Database per Service (MongoDB, MYSQL)
+
+---
+
+# Infrastructure
+
+- CI & CD via Jenkins
+- Server provisioning via Docker Machine & Cloud hoster API
+- Digital Ocean for production
+- Strato for stage
+- Docker Service containers
