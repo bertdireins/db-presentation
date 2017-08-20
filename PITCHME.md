@@ -204,7 +204,7 @@ Server side
 
 ---
 
-# Infrastructure
+## Infrastructure
 
 - CI & CD via Jenkins
 - Server provisioning via Docker Machine & Cloud hoster API
