@@ -180,7 +180,7 @@ Howto get the cake
 
 ### Event based communication
 
-![IPC](db-pres-cwrs.png)
+![IPC](db-pres-cqrs.png)
 
 ---
 
