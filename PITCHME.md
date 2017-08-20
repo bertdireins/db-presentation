@@ -174,7 +174,7 @@ Howto get the cake
 
 ### Overview
 
-<< Bild Frontend und services >>
+![Arch](db-pres-arch.png)
 
 +++
 
