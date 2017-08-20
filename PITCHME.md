@@ -108,6 +108,8 @@ Howto get the cake
 
 << Bild Frontend und services >>
 
++++
+
 ### Event based communication
 
 << Bild MQ >>
@@ -115,6 +117,10 @@ Howto get the cake
 ---
 
 ## Technologies
+
+- Scaleable
+
++++
 
 Client side
 
