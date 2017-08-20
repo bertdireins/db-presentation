@@ -45,7 +45,7 @@ Make offers **compareable** and **billing** easy.
 
 # Technically
 
-Howto get the cake
+How to get there
 
 - Specification
 - Architecture
@@ -174,7 +174,7 @@ Howto get the cake
 
 ### Overview
 
-![Arch](db-pres-arch.png)
+![Arch](db-pres-arch2.png)
 
 +++
 
@@ -202,6 +202,8 @@ Server side
 - CouchDB, MongoDB, MYSQL
 - Admesh & Blender
 
+> One database per service
+
 ---
 
 ## Infrastructure
@@ -211,3 +213,96 @@ Server side
 - Digital Ocean for production
 - Strato for stage
 - Docker Service containers
+
+---
+
+## Service infrastructure
+
++++
+
+### User Service
+
+- Registration
+- Token generation
+- Userdata queries
+
++++
+
+### Upload Service
+
+- File uploads
+- Storage
+- STL analyzation
+- HQ preview generation
+
++++
+
+### Data Service
+
+User specific data
+
+- Orders query
+- Orders download
+ - Invoices
+ - Shipping info
+ - STL models
+- Configuration per User
+ - Portfolio
+ - Prices & Discounts
+ - Shipping configuration
+ 
++++
+
+### Config Service
+
+- Configuration tree queries
+- Application configuration
+
++++
+
+### Command Service
+
+- Place orders
+- Save configuration
+- Accept/Decline orders
+- Order status changes
+
++++
+
+### Search Service
+
+Keeps calculated prices for all users configuration & discounts
+
+- Query by order configuration
+
++++
+
+### Notification Service
+
+Sends notification about events
+
+- Emails for user registration
+- Emails for incoming orders
+- Frontend notification
+
++++
+
+### E-Commerce Service
+
+Provides E-Commerce functions
+
+- Checkout process
+- Payment information
+
+Different containers per users country
+
+---
+
+## Implementation status
+
+| Entity | Status |
+| :-- | -:- |
+| App | 70% |
+| Upload Service | 80% |
+| Command Service | 30% |
+| Notification Service | 80% |
