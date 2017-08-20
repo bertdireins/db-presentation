@@ -43,3 +43,55 @@ Make offers **compareable** and **billing** easy.
 
 ---
 
+# Technically
+
+Howto get the cake
+
+- Specification
+- Architecture
+- Technologies
+- Infrastructure
+
+---
+
+## Specification
+
+- Wireframing
+- Domain models
+
+---
+
+### Wireframing
+
+<< Bild Wireframes >>
+
+---
+
+### Model the Domain
+
+- Tree based
+- Automatic conversion
+- Modification & compatible
+
+<< Bild VISUAL => XML => JSON >>
+
+---
+
+### Model the Domain: VISUAL
+
+<< Bild tree >>
+
+---
+
+### Model the Domain: XML
+
+<< Code XML >>
+
+---
+
+### Model the Domain: JSON
+
+<< CODE JSON >>
+
+
+
