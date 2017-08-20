@@ -163,6 +163,15 @@ Howto get the cake
 
 +++
 
+### Architecture requirements
+
+- Scaleable
+- Independently deployable services
+- Extendable
+- Techstack that fits the job
+
++++
+
 ### Overview
 
 << Bild Frontend und services >>
@@ -171,26 +180,27 @@ Howto get the cake
 
 ### Event based communication
 
-<< Bild MQ >>
+![IPC](db-pres-cwrs.png)
 
 ---
 
 ## Technologies
 
-- Scaleable
-
-+++
-
 Client side
 
 - Angular (Cordova & Electron)
 - Magento as E-Commerce component
+- JWT
+
++++
+
+## Technologies
 
 Server side
 
 - Apache Kafka
-- CouchDB
-- One Database per Service (MongoDB, MYSQL)
+- CouchDB, MongoDB, MYSQL
+- Admesh & Blender
 
 ---
 
