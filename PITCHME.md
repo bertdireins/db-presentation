@@ -18,7 +18,7 @@ Make offers **compareable** and **billing** easy.
 
 ## For CLIENTS this means
 
-### Easy upload and product configuration
+#### Easy upload and product configuration
 
 ### Selecting your manufacturer by price / delivery / quality
 
