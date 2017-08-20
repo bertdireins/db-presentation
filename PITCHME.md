@@ -121,35 +121,35 @@ Howto get the cake
 ### Model the Domain: JSON
 
 ```JSON
-     {
-						"text": "Abutments & Implantbridges",
-						"type": "indication",
-						"children": [
-							{
-								"text": "Metall",
-								"type": "material",
-								"children": [
-									{
-										"text": "CoCr",
-										"type": "materialType",
-										"id": "materialtype-cocr"
-									},
-									{
-										"text": "Titan",
-										"type": "materialType",
-										"id": "materialtype-titan"
-									},
-									{
-										"text": "Gold",
-										"type": "materialType",
-										"id": "materialtype-gold"
-									}
-								],
-								"id": "material-metall"
-							}
-						],
-						"id": "indication-abutments-implantbridges"
-					}
+{
+   "text": "Abutments & Implantbridges",
+   "type": "indication",
+   "children": [
+      {
+         "text": "Metall",
+         "type": "material",
+         "children": [
+            {
+               "text": "CoCr",
+               "type": "materialType",
+               "id": "materialtype-cocr"
+            },
+            {
+               "text": "Titan",
+               "type": "materialType",
+               "id": "materialtype-titan"
+            },
+            {
+               "text": "Gold",
+               "type": "materialType",
+               "id": "materialtype-gold"
+            }
+         ],
+         "id": "material-metall"
+      }
+   ],
+   "id": "indication-abutments-implantbridges"
+}
 ```
 
 ---
