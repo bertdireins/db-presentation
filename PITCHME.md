@@ -13,3 +13,36 @@ Bring together dental labs and maufacturers.
 - Privacy
 
 Make offers **compareable** and **billing** easy.
+
+---
+
+## For CLIENTS this means
+
+### Easy upload and product configuration
+
+### Selecting your manufacturer by price / delivery / quality
+
+### Easy payment
+
+### Always be informed about the status of your orders
+
+### History and control
+
+---
+
+## For PROVIDERS this means
+
+### Easily adjust your portfolio
+
+### Base price configuration
+
+### Daily discounts
+
+### Configurable notification
+
+### Easy order confirmation & complete order data
+
+### History and control
+
+---
+
