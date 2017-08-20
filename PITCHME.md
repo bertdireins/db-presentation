@@ -237,22 +237,6 @@ Server side
 
 +++
 
-### Data Service
-
-User specific data
-
-- Orders query
-- Orders download
- - Invoices
- - Shipping info
- - STL models
-- Configuration per User
- - Portfolio
- - Prices & Discounts
- - Shipping configuration
- 
-+++
-
 ### Config Service
 
 - Configuration tree queries
@@ -267,6 +251,22 @@ User specific data
 - Accept/Decline orders
 - Order status changes
 
++++
+
+### Data Service
+
+User specific data
+
+- Orders query
+- Orders download
+ - Invoices
+ - Shipping info
+ - STL models
+- Configuration per User
+ - Portfolio
+ - Prices & Discounts
+ - Shipping configuration
+ 
 +++
 
 ### Search Service
@@ -300,9 +300,14 @@ Different containers per users country
 
 ## Implementation status
 
-Entity | Status
-:-- | -:-
-App | 70% |
-Upload Service | 80%
-Command Service | 30%
-Notification Service | 80%
+| Entity | Status |
+| --- | :-------: |
+| App | 70% |
+| User Service | 90% |
+| Upload Service | 80% |
+| Config Service | 90% |
+| Command Service | 30% |
+| Data Service | 20% |
+| Search Service | 10% |
+| Notification Service | 80% |
+| E-Commerce Service | 20% |
