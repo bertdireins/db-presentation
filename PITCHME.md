@@ -300,9 +300,9 @@ Different containers per users country
 
 ## Implementation status
 
-| Entity | Status |
-| :-- | -:- |
-| App | 70% |
-| Upload Service | 80% |
-| Command Service | 30% |
-| Notification Service | 80% |
+Entity | Status
+:-- | -:-
+App | 70% |
+Upload Service | 80%
+Command Service | 30%
+Notification Service | 80%
