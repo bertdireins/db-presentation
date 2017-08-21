@@ -241,6 +241,68 @@ Server side
 
 +++
 
+```JSON
+{  
+   "id":"4892ym2116",
+   "parse":{  
+      "x":{  
+         "min":48.092098,
+         "max":59.976101
+      },
+      "y":{  
+         "min":42.565701,
+         "max":55.8592
+      },
+      "z":{  
+         "min":14,
+         "max":21.233101
+      },
+      "facets":{  
+         "overall":{  
+            "before":39196,
+            "after":39196
+         },
+         "disconnected1":{  
+            "before":0,
+            "after":0
+         },
+         "disconnected2":{  
+            "before":0,
+            "after":0
+         },
+         "disconnected3":{  
+            "before":0,
+            "after":0
+         },
+         "disconnected":{  
+            "before":0,
+            "after":0
+         },
+         "degenerate":0,
+         "removed":0,
+         "added":0,
+         "reversed":0
+      },
+      "volume":121.886917,
+      "parts":1,
+      "edges":{  
+         "fixed":0,
+         "backwards":0
+      },
+      "normalsFixed":0
+   },
+   "quality":{  
+      "factor":1,
+      "name":"hq"
+   },
+   "unitsEst":1,
+   "preview":true,
+   "animation":false
+}
+```
+
++++
+
 ### Config Service
 
 - Configuration tree queries
