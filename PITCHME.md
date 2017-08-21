@@ -237,9 +237,13 @@ Server side
 
 +++
 
+#### HQ rendering
+
 <iframe class="stretch" data-src="http://dev.interbranche.de/test/"></iframe>
 
 +++
+
+#### Analyze STL
 
 ```JSON
 {  
