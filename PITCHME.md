@@ -239,7 +239,7 @@ Server side
 
 #### HQ rendering
 
-<iframe class="stretch" data-src="http://dev.interbranche.de/test/"></iframe>
+<iframe class="stretch" data-src="https://ssl-proxy.my-addr.org/myaddrproxy.php/http/dev.interbranche.de/test/"></iframe>
 
 +++
 
