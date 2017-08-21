@@ -237,6 +237,10 @@ Server side
 
 +++
 
+<iframe class="stretch" data-src="http://dev.interbranche.de/test/"></iframe>
+
++++
+
 ### Config Service
 
 - Configuration tree queries
